@@ -121,7 +121,7 @@ SET t1.industry = t2.industry
 WHERE (t1.industry IS NULL OR t1.industry ="")
 AND t2.industry	IS NOT NULL;
 
--- changing black values to NULL so that its easy for updation
+-- changing blank values to NULL so that it's easy for updation
 
  UPDATE layoffs_staging2
  SET industry = NULL
